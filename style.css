@@ -82,3 +82,10 @@ footer >p> a{
     color: blue;
     font-weight: lighter;
 }
+ul{
+    list-style-image: url('icon.png');
+}
+ul > li{
+    font-size: 24px;
+    margin-top: 5px;
+}
