@@ -14,19 +14,28 @@ function printFolders(){
     }
 }
 ?>
-<body>
-    <div class="center-div">
-        <h1>Lamp Home!</h1>
-        <br/>
-        <h2>It Works!<span style="font-size:15px;">(just like they say everytime ;) )</span></h2>
-        <div class="folder-listing">
-        <?php printFolders();?>
+    <body>
+        <div class="center-div">
+            <p style="font-size: 45px;">Lamp Home!</p>
+            <p class="itWorks">It Works! :D<br/><span style="font-size:15px;">You probably already know that.</span></p>
+            <div class="folder-listing">
+                <p class="subhead">Projects</p>
+                <ul class="folders">
+                    <li>xyz/</li>
+                    <?php //printFolders();?>
+                </ul>
+            </div>
+            <div class="service-listing">
+                <p class="subhead">Services</p>
+                <ul class="services">
+                    <li>phpMyadmin</li>
+                    <li>phpinfo</li>
+                </ul>
+            </div>            
         </div>
         <footer>
             <p>Created by <a href="http://fb.com/sarkarshuvojit" target="_blank">@sarkarshuvojit</a></p>
         </footer>
-    </div>
-    
-</body>
+    </body>
 
 </html>

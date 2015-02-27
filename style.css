@@ -12,11 +12,6 @@ h1{
     text-align: center;
 }
 
-* {
-margin: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
-}
-
 body, html {
 padding: 3px 3px 3px 3px;
 
@@ -45,6 +40,45 @@ border-style: solid;
 background-color: #FFFFFF;
 
 text-align: center;
+}
 
-
+.folder-listing{
+    margin-left: 5px;
+    width: 390px;
+    background-color: #D8DBE3;
+    text-align: left;
+    float: left;
+    margin-bottom: 25px;
+}
+.service-listing{
+    margin-right: 5px;
+    width: 390px;
+    background-color: #D8DBE3;
+    text-align: left;
+    float: right;
+    margin-bottom: 25px;
+}
+footer{
+    bottom: 5px;
+    position absolute;
+}
+.itWorks{
+    text-color: #FFFFFF;
+    background-color: rgba(255, 165, 0, 0.6);;
+    width: 790px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+.subhead{
+    margin-left: 15px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+footer >p> a{
+    color: blue;
+    font-weight: lighter;
 }
